@@ -18,7 +18,9 @@ Elaborar una aplicación que implemente el concepto y visón del internet de las
 •	Con cubrebocas
 •	Sin cubrebocas 
 Según el resultado de esta validación, realizamos una solicitud a nuestro web server. En caso de que la validación haya apuntado a que el usuario si tiene cubre bocas, el web service generara una cadena de caracteres aleatoria de 13 espacios y será lo que regresara a nuestra raspberry. En caso de indicar lo contrario, el web service regresara un mensaje negativo avisando que no se encontró un usuario con cubrebocas. Una vez que ya tenemos esta cadena de caracteres, la convertimos en un código QR con la intención de ser leído y valide un acceso con contraseña. Este código QR es enviado via telegram haciendo uso de un bot de la misma plataforma. Este bot es manipulado vía comandos de Python, y esta habilitado para enviar texto plano e imágenes. En un caso negativo, se le hace llegar al usuario un mensaje en el que se le notifica que no se le permite el acceso dado a que se detecto que no esta usando cubrebocas.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 1. Problem proposed to solve.
 Develop an application that implements the concept and vision of the Internet of Things (IoT).
 
